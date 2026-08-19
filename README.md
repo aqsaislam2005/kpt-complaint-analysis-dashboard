@@ -7,6 +7,16 @@ Built with: **Python + MySQL + Streamlit**
 
 ---
 
+## Real-World Deployment Notes
+
+This project was deployed and tested in an offline, air-gapped environment 
+(no internet access) as part of an internship engagement, involving:
+- Offline installation of Python, MySQL, and all dependencies via manual package transfer
+- Resolving enterprise security software (endpoint protection) conflicts with local development tools
+- Adapting the setup for a Windows Server LAN environment
+
+📄 See [DEPLOYMENT.md](DEPLOYMENT.md) for full technical documentation of this process.
+
 ## What This Project Does
 
 1. **Stores** complaint data in a MySQL database
